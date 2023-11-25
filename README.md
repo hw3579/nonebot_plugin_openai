@@ -1,6 +1,10 @@
-仅仅是一个测试版 还有许多尚未整理的东西 后面整理好会好看很多 现在将就看看
+仅仅是一个测试版 起码能用 还有许多尚未整理的东西 后面整理好会好看很多 现在将就看看
 
 更新于2023.11.25
+
+如果你想快速使用的话 复制文件夹里面的两个文件 覆盖下面这个项目里的源文件即可
+
+（还没发布到pypi和插件商店）
 
 从项目
 https://github.com/Alpaca4610/nonebot_plugin_chatgpt_turbo
@@ -50,3 +54,4 @@ openai官网的api手册没有异步调用！！！！！（原来的OpenAI.comp
     from openai import AsyncOpenAI
     client = AsyncOpenAI(api_key=api_key)
     #注意后面编程需要加上async和await关键字
+
